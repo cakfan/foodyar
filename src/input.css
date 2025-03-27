@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #272042;
+  --primary: #f7c531;
+  --secondary: #fbe0dc;
+  --accent: #8b8ba5;
+}
+
+@theme inline {
+  --font-quicksand: "Quicksand", sans-serif;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+  --shadow-primary: 0 4px 10px 0 rgba(247, 197, 49, 0.8);
+  --shadow-secondary: 0 4px 10px 0 rgba(251, 224, 220, 0.8);
+}
+
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
