@@ -117,8 +117,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // Populate with new content based on the selected index
     tabContents[index].forEach((item) => {
-      const contentDiv = document.createElement("div");
-      contentDiv.classList.add(
+      const contentLink = document.createElement("a");
+      contentLink.href = "#";
+      contentLink.classList.add(
         "group",
         "cursor-pointer",
         "flex",
@@ -127,7 +128,7 @@ document.addEventListener("DOMContentLoaded", () => {
         "w-[287px]"
       );
 
-      contentDiv.innerHTML = `
+      contentLink.innerHTML = `
           <div class="relative w-full h-[300px]">
             <img src="./assets/images/backgrounds/item.png" alt="" class="w-full h-full" />
             <div class="w-[271px] h-[285px] absolute left-[9px] top-[9px] rounded-tl-[68px] rounded-tr-[32px] rounded-b-[70px] overflow-clip">
@@ -154,7 +155,7 @@ document.addEventListener("DOMContentLoaded", () => {
           </div>
         `;
 
-      tabContent.appendChild(contentDiv);
+      tabContent.appendChild(contentLink);
     });
   }
 
