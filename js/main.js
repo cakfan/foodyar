@@ -142,14 +142,16 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
             </div>
           </div>
-          <h4 class="mt-3.5 text-[22px] leading-7 font-medium">${
+          <h4 class="mt-3.5 text-[22px] text-center line-clamp-2 hover:line-clamp-none leading-7 font-medium">${
             item.title
           }</h4>
-          <p class="mt-2 text-[16px] text-accent leading-5">${item.author}</p>
-          <div class="item-rate mt-4 flex gap-[9px]">
+          <p class="mt-2 text-[16px] text-center line-clamp-2 hover:line-clamp-none text-accent leading-5">${
+            item.author
+          }</p>
+          <div class="item-rate mt-3 flex gap-1">
             ${Array(item.rating)
               .fill(
-                '<img src="./assets/images/icons/star.svg" alt="" class="h-auto w-auto" />'
+                '<div class="flex justify-center items-center h-[22px] w-[22px]"><img src="./assets/images/icons/star.svg" alt="" class="h-auto w-auto" /></div>'
               )
               .join("")}
           </div>
