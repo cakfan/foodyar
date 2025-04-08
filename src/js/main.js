@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const tabContents = [
     [
       {
-        title: "Salad Kiwi Sugga Salad Kiwi Sugga Salad Kiwi Sugga",
+        title: "Salad Kiwi Sugga",
         author: "Amir Samantha",
         rating: 5,
         thumbnail: "./assets/images/thumbnails/item-1.png",
