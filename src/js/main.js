@@ -146,7 +146,7 @@ document.addEventListener("DOMContentLoaded", () => {
             item.title
           }</h4>
           <p class="mt-2 text-[16px] text-accent leading-5">${item.author}</p>
-          <div class="item-rate mt-4 flex gap-[9px]">
+          <div class="item-rate mt-3 flex gap-2">
             ${Array(item.rating)
               .fill(
                 '<img src="./assets/images/icons/star.svg" alt="" class="h-auto w-auto" />'
