@@ -248,6 +248,9 @@
   .mx-auto {
     margin-inline: auto;
   }
+  .my-\[70px\] {
+    margin-block: 70px;
+  }
   .mt-2 {
     margin-top: calc(var(--spacing) * 2);
   }
@@ -454,6 +457,9 @@
   }
   .w-\[835px\] {
     width: 835px;
+  }
+  .w-\[1173px\] {
+    width: 1173px;
   }
   .w-\[1440px\] {
     width: 1440px;
