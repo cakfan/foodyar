@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const tabContents = [
     [
       {
-        title: "Salad Kiwi Sugga",
+        title: "Salad Kiwi Sugga Salad Kiwi Sugga Salad Kiwi Sugga",
         author: "Amir Samantha",
         rating: 5,
         thumbnail: "./assets/images/thumbnails/item-1.png",
@@ -142,10 +142,12 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
             </div>
           </div>
-          <h4 class="mt-3.5 text-[22px] leading-7 font-medium">${
+          <h4 class="mt-3.5 text-[22px] text-center line-clamp-2 hover:line-clamp-none leading-7 font-medium">${
             item.title
           }</h4>
-          <p class="mt-2 text-[16px] text-accent leading-5">${item.author}</p>
+          <p class="mt-2 text-[16px] text-center line-clamp-2 hover:line-clamp-none text-accent leading-5">${
+            item.author
+          }</p>
           <div class="item-rate mt-3 flex gap-1">
             ${Array(item.rating)
               .fill(
