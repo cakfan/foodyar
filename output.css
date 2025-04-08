@@ -254,8 +254,14 @@
   .z-50 {
     z-index: 50;
   }
+  .mx-1\.5 {
+    margin-inline: calc(var(--spacing) * 1.5);
+  }
   .mx-auto {
     margin-inline: auto;
+  }
+  .my-\[3px\] {
+    margin-block: 3px;
   }
   .my-\[70px\] {
     margin-block: 70px;
@@ -521,6 +527,9 @@
   .w-\[287px\] {
     width: 287px;
   }
+  .w-\[290px\] {
+    width: 290px;
+  }
   .w-\[346px\] {
     width: 346px;
   }
@@ -592,6 +601,9 @@
   }
   .items-end {
     align-items: flex-end;
+  }
+  .justify-between {
+    justify-content: space-between;
   }
   .justify-center {
     justify-content: center;
@@ -842,6 +854,9 @@
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
+  }
+  .text-nowrap {
+    text-wrap: nowrap;
   }
   .overflow-ellipsis {
     text-overflow: ellipsis;
