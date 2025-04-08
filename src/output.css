@@ -308,6 +308,12 @@
   .mt-\[155px\] {
     margin-top: 155px;
   }
+  .mt-\[162px\] {
+    margin-top: 162px;
+  }
+  .mt-\[222px\] {
+    margin-top: 222px;
+  }
   .mr-\[68px\] {
     margin-right: 68px;
   }
@@ -439,6 +445,9 @@
   }
   .max-h-full {
     max-height: 100%;
+  }
+  .min-h-\[200px\] {
+    min-height: 200px;
   }
   .min-h-\[345px\] {
     min-height: 345px;
